@@ -1,0 +1,21 @@
+Package: CaPri
+Title: Bayesian Mendelian Randomization with Potentially Pleiotropic Instruments
+Version: 0.0.0.9000
+Authors@R: 
+    person("Ou", "Ren", , "oren4@wisc.edu", role = c("aut", "cre"))
+Description: Bayesian Mendelian randomization using GWAS summary statistics
+    that jointly estimates the causal effect of an exposure on an outcome and
+    the direct pleiotropic effects of genetic instruments, using variational
+    inference.
+License: MIT + file LICENSE
+URL: https://github.com/OuRen0104/CaPri
+BugReports: https://github.com/OuRen0104/CaPri/issues
+Imports: 
+    graphics,
+    utils
+Depends: 
+    R (>= 3.5)
+LazyData: true
+Encoding: UTF-8
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 8.0.0
